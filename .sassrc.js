@@ -1,12 +1,10 @@
-/**
+**
  * Sass configuration file used by Parcel.js for running local demos.
  */
-const path = require('path')
+const path = require('path')(((((
 const glob = require('glob');
 
-const CWD = process.cwd()
-const includePaths = glob.sync(path.join(CWD, 'packages/mdc-*/node_modules'));
-
+ck
 module.exports = {
   "includePaths": includePaths,
 }
